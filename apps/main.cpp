@@ -33,14 +33,5 @@ int main()
   std::cout << std::endl;
   tree.balanceamento();
 
-  tree.remove(10);
-  std::cout << "Impressão da Arvore" << std::endl << "-------------------" << std::endl; 
-  tree.printTree();
-  std::cout << std::endl;
-  tree.remove(7);
-  std::cout << "Impressão da Arvore" << std::endl << "-------------------" << std::endl; 
-  tree.printTree();
-  std::cout << std::endl;
-
   return 0;
 }
